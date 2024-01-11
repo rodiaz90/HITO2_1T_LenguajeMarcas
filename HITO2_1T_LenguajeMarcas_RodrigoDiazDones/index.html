@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jane Doe">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Rodrigo Díaz | Programador Multiplataforma</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Permanent+Marker&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.jpg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cv.html">Mis logros</a>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/descarga.png" alt="Foto de Jane Doe">
+        <h1>Hola, soy Rodrigo Díaz Dones</h1>
+        <h2>Programador de servicios Multiplataforma.</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/escritorio-moderno.png" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Rodrigo</h2>
+        <p class="seccion-texto">Apasionado por la resolución de problemas y el desarrollo de soluciones innovadoras, poseo habilidades sólidas en lenguajes como JavaScript y Python. Mi experiencia abarca desde el diseño de sistemas hasta la implementación de código eficiente. Destaco en colaboración y comunicación efectiva, elementos clave para el éxito en equipos de desarrollo. Constantemente actualizado con las últimas tendencias tecnológicas, ofrezco una combinación única de creatividad y precisión técnica.</p>
+      </div>
+    </section>
+    
+    <!-- Video -->
+    <div>
+      <video src="imagenes/presentación.mp4" width="100%" height="author" controls autoplay></video>
+    </div>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Como desarrollador web, destaco por mi experiencia sólida en la creación de sitios intuitivos y atractivos. Mis habilidades incluyen HTML, CSS, JavaScript y enfoque centrado en el usuario. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Programación Multiplataforma</p>
+            <p>  Como desarrollador multiplataforma, sobresalgo en la creación de aplicaciones eficientes para diversos sistemas. Mi dominio incluye tecnologías como Xamarin y Flutter, garantizando soluciones consistentes y versátiles </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Python</span>
+              <span class="badge text-bg-primary">Java</span>
+              <span class="badge text-bg-primary">php</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Gestion base de datos</p>
+            <p>Como gestor de base de datos, experimentado en optimización y mantenimiento, garantizo la integridad y eficiencia de datos. Experticia en SQL y administración de sistemas. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">MySQL</span>
+              <span class="badge text-bg-primary">Workbench</span>
+              <span class="badge text-bg-primary">phpMyAdmin</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo rounded-circle" src="imagenes/icono.jpg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com/rodiaz90" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="mailto:rodrigo.diazdones.23@campusfp.es" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Rodrigo Díaz Dones (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
